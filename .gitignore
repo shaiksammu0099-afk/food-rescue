@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+
+# Environment files
+.env
+!.env.example
+
+# Build output
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python ML artifacts
+*.joblib
+model_metadata.json
+
+# Logs
+*.log
+
+# Temp installer
+PortableGit.exe
